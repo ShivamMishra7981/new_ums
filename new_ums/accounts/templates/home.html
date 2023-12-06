@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div>
+<li>
+    <p>manager</p>
+    <a href="{% url 'manager-signup' %}">manager signup</a>
+</li>
+
+<li>
+    <p>executive</p>
+    <a href="{% url 'executive-signup' %}">executive signup</a>
+</li>
+</div>
+{% endblock %}
